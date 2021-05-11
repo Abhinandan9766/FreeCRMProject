@@ -6,10 +6,20 @@
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
           <include name="teraDown"/>
+          <include name="selectContactsTest"/>
           <include name="setUp"/>
-          <include name="validateCreatNewContact" invocation-numbers="0 2"/>
+          <include name="validateCreatNewContact"/>
+          <include name="verifyContactsPageLabel"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyContactslinkTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="setUp"/>
+          <include name="teraDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
